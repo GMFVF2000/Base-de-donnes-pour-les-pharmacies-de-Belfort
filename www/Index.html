@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css " href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+
+    <div data-role="page" id="index">
+        <div data-role="header" data-position="fixed">
+            <h1>PHARMACIE DE BELFORT</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                LA VILLE DE BELFORT.<br>
+                Voici l'application qui repertorie les pharmacies de la ville de Belfort. Prenez-y du plaisir en faisant votre choix.<br>
+            </p>
+
+            <ul data-role="listview" data-inset ="true">
+                <li><a href="#ListePM"> Liste de Pharmacie</a> </li>
+                <li><a href="#MesFAVORIS">Mes Favoris </a> </li>
+                <li><a href="#about">A Propos </a> </li>
+            </ul>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; BELFORT PHARMACY 2020</h4>
+
+        </div>
+    </div>
+
+    <!-- Liste de Pharmacie -->
+    <div data-role="page" id="ListePM">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#index" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Liste de Pharmacie</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Voici la liste des differentes pharmacie de la ville de Belfort
+            </p>
+
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#mapharmacie">
+                        <img src="img/PharmacieBelfort.jpeg" alt="Pharmacie Belfort" class="ui-li-icon" />
+                        Pharmacie Belfort
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieduboulevardKennedy">
+                        <img src="img/PharmacieduBoulevardKennedy.jpeg" alt="Pharmacie du Boulevard Kennedy" class="ui-li-icon" />
+                        Pharmacie du Boulevard Kennedy
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedesPres">
+                        <img src="img/PharmacieDesPres.jpeg" alt="Pharmacie des Pres" class="ui-li-icon" />
+                        Pharmacie des Pres
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieBoffyMarc">
+                        <img src="img/PharmacieBoffy-Marc.jpeg" alt="Pharmacie Boffy Marc" class="ui-li-icon" />
+                        Pharmacie Boffy Marc
+                    </a>
+                </li>
+                <li>
+                <a href="#pharmacieBretegnierBraud">
+                    <img src="img/PharmacieBretegnier-Braud.jpeg" alt="Pharmacie Bretegnier-Braud" class="ui-li-icon" />
+                    Pharmacie Bretegnier-Braud
+                </a>
+                </li>
+                <li>
+                    <a href="#pharmacieCarnot">
+                        <img src="img/PharmacieCarnot.jpeg" alt="Pharmacie Carnot" class="ui-li-icon" />
+                        Pharmacie Carnot
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieEngles">
+                        <img src="img/PharmacieEngles.jpeg" alt="Pharmacie Engles" class="ui-li-icon" />
+                        Pharmacie Engles
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieFourny">
+                        <img src="img/PharmacieFourny.jpeg" alt="Pharmacie Fourny" class="ui-li-icon" />
+                        Pharmacie Fourny
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieGermainEurl">
+                        <img src="img/PharmacieGermain%20-Eurl.png" alt="Pharmacie Germain-Eurl" class="ui-li-icon" />
+                        Pharmacie Germain-Eurl
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieGlacisduChateau">
+                        <img src="img/PharmacieGlacisduChateau.jpeg" alt="Pharmacie Glacis du Chateau" class="ui-li-icon" />
+                        Pharmacie Glacis du Chateau
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieGourssies">
+                        <img src="img/PharmacieGourssies.jpeg" alt="Pharmacie Gourssies" class="ui-li-icon" />
+                        Pharmacie Gourssies
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieJacotLitschig">
+                        <img src="img/PharmacieJacot-Lichtig.png" alt="Pharmacie Jacot-Litschig" class="ui-li-icon" />
+                        Pharmacie Jacot-Litschig
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieLafayetteCentrale">
+                        <img src="img/PharmacieLafayette.jpeg" alt="Pharmacie Lafayette Centrale" class="ui-li-icon" />
+                        Pharmacie Lafayette Centrale
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieLambalot">
+                        <img src="img/PharmacieLambalot.jpeg" alt="Pharmacie Lambalot" class="ui-li-icon" />
+                        Pharmacie Lambalot
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieLaviron">
+                        <img src="img/PharmacieLaviron.png" alt="Pharmacie Laviron" class="ui-li-icon" />
+                        Pharmacie Laviron
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieNotreDame">
+                        <img src="img/PharmacieNotreDame.png" alt="Pharmacie Notre-Dame" class="ui-li-icon" />
+                        Pharmacie Notre-Dame
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciePeninSaltel">
+                        <img src="img/PharmaciePenin-Saltel.jpeg" alt="Pharmacie Penin-Saltel" class="ui-li-icon" />
+                        Pharmacie Penin-Saltel
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieRenauddeBourgogne">
+                        <img src="img/PharmacieRenauddeBourgogne.jpeg" alt="Pharmacie Renaud de Bourgogne " class="ui-li-icon" />
+                        Pharmacie Renaud de Bourgogne
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieSaintChristophe">
+                        <img src="img/PharmacieSaint-%20Christophe.jpeg" alt="Pharmacie Saint-Christophe" class="ui-li-icon" />
+                        Pharmacie Saint-Christophe
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieSaintJoseph">
+                        <img src="img/PharmacieSaint-Joseph.jpeg" alt="Pharmacie Saint-Joseph" class="ui-li-icon" />
+                        Pharmacie Saint-Joseph
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieVauban">
+                        <img src="img/PharmacieVauban.png" alt="Pharmacie Vauban" class="ui-li-icon" />
+                        Pharmacie Vauban
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieZussy">
+                        <img src="img/PharmacieZussie.jpeg" alt="Pharmacie Zuffy" class="ui-li-icon" />
+                        Pharmacie Zussy
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedeChevremont">
+                        <img src="img/PharmaciedeChevremont.jpeg" alt="Pharmacie de Chevremont" class="ui-li-icon" />
+                        Pharmacie de Chevremont
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedeDanjoutin">
+                        <img src="img/PharmaciedeDanjoutin.jpeg" alt="Pharmacie de Danjoutin" class="ui-li-icon" />
+                        Pharmacie de Danjoutin
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedeFrance">
+                        <img src="img/PharmaciedeFrance.jpeg" alt="Pharmacie de France" class="ui-li-icon" />
+                        Pharmacie de France
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedelaDouce">
+                        <img src="img/PharmaciedelaDouce.jpeg" alt="Pharmacie de la Douce" class="ui-li-icon" />
+                        Pharmacie de la Douce
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedelapepiniere">
+                        <img src="img/Pharmaciedelapepiniere.jpeg" alt="Pharmacie de la Pepiniere" class="ui-li-icon" />
+                        Pharmacie de la Pepiniere
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedelaSavoureuse">
+                        <img src="img/PharmaciedelaSavoureuse.jpeg" alt="Pharmacie de la Savoureuse" class="ui-li-icon" />
+                        Pharmacie de la Savoureuse
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedesForges">
+                        <img src="img/PharmaciedesForges.png" alt="Pharmacie des Forges" class="ui-li-icon" />
+                        Pharmacie des Forges
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedesResidencesMadrid">
+                        <img src="img/PharmacieDesResidences.jpeg" alt="Pharmacie des Residences Madrid" class="ui-li-icon" />
+                        Pharmacie des Residences Madrid
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmaciedesVosges">
+                        <img src="img/PharmaciedesVosges.jpeg" alt="Pharmacie des Vosges" class="ui-li-icon" />
+                        Pharmacie des Vosges
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieduLion">
+                        <img src="img/PharmacieduLION.jpeg" alt="Pharmacie du Lion" class="ui-li-icon" />
+                        Pharmacie du Lion
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieduMagny">
+                        <img src="img/PharmacieduMagny.jpeg" alt="Pharmacie du Magny" class="ui-li-icon" />
+                        Pharmacie du Magny
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieduMarche">
+                        <img src="img/PharmacieduMarche.jpeg" alt="Pharmacie du Marche" class="ui-li-icon" />
+                        Pharmacie du Marche
+                    </a>
+                </li>
+                <li>
+                    <a href="#pharmacieduMont">
+                        <img src="img/PharmacieduMont.jpeg" alt="Pharmacie du Mont" class="ui-li-icon" />
+                        Pharmacie du Mont
+                    </a>
+                </li>
+                <li>
+                    <a href="#SELARLpharmacieKuentzEmmanuel">
+                        <img src="img/Pharmaciekuentz.jpeg" alt="SELARL Pharmacie Kuentz Emmanuel " class="ui-li-icon" />
+                       SELARL Pharmacie Kuentz Emmanuel
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="mapharmacie">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Ma Pharmacie</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Ma Pharmacie (Tel : 03842620, 18  rue Aristide Briand )<br/>
+                <img src="img/PharmacieBelfort.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="pharmaciedesPres">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1> Pharmacie des Pres</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie des Pres (Tel : Indisponible, 1 rue des Etangs)<br/>
+                <img src="img/PharmacieDesPres.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="pharmacieBoffyMarc">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Boffy-Marc</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Boffy Marc (Tel : 0384280325, 17 Fbg des ancetres)<br/>
+                <img src="img/PharmacieBoffy-Marc.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="pharmacieBretegnier-Braud">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Bretegnier-Braud</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Bretegnier-Braud (Tel : 0384461520, 8 Fbg de Belfort)<br/>
+                <img src="img/PharmacieBretegnier-Braud.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="pharmacieCarnot">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Carnot</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Carnot (Tel : 0384280598, 6 Boulevard Carnot)<br/>
+                <img src="img/PharmacieCarnot.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="pharmacieEngles">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Engles</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Engles (Tel : 0384212393,120 Avenue Jean-Jaures )<br/>
+                <img src="img/PharmacieEngles.jpeg " width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="pharmacieFourny">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Fourny</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Fourny (Tel : 0384288172, 36 Grande Rue Francois-Mitterand) <br/>
+                <img src="img/PharmacieFourny.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="pharmacieGlacisduChateau">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Glacis du Chateau</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Glacis du Chateau (Tel : 0384540855, 25 Avenue Capt de la Laurencie )<br/>
+                <img src="img/PharmacieGlacisduChateau.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieGourssies">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Gourssies</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Gourssies (Tel: 0384260526, 38 Rue des Commandos d'Afrique)<br/>
+                <img src="img/PharmacieGourssies.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieJacotlitschig">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Jacot-Litschig</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie JACOT-LITSCHIG (Tel : 0384261880, 57 Rue Carnot) <br/>
+                <img src="img/PharmacieJacot-Lichtig.png" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieLafayetteCentrale">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Lafette Centrale</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie LAFAYETTE CENTRALE  (Tel : 0384282314, 14 Fbg de France)<br/>
+                <img src="img/PharmacieLafayette.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieLambalot">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Lambalot</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Lambalot ( Tel : 0384227255, 27 rue de Luxembourg)<br/>
+                <img src="img/PharmacieLambalot.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieLaviron">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Laviron</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Laviron (Tel : 0384291200, 1 rue Barbier)<br/>
+                <img src="img/PharmacieLaviron.png" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieNotreDame">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Notre-Dame</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Notre Dame (Tel : 0384282634,44 Fbg de Montbelliard )<br/>
+                <img src="img/PharmacieNotreDame.png" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciePeninSaltel">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Penin-Saltel</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Penin-Saltel ( Tel : 0384211610, 2 rue de  Madrid)<br/>
+                <img src="img/PharmaciePenin-Saltel.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieRenauddeBourgogne">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Renaud de Bourgogne</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Renaud de Bourgogne (Tel : 0384213927, 1 rue Leon Blum)<br/>
+                <img src="img/PharmacieRenauddeBourgogne.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieSaintJoseph">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Saint-Joseph</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Saint Joseph (Tel : 0963534332, 42 Rue de Voltaire) <br/>
+                <img src="img/PharmacieSaint-Joseph.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieVauban">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Vauban</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie VAUBAN (Tel : 0384280259, 7 Boulevard Henri Durant)<br/>
+                <img src="img/PharmacieVauban.png" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieZussy">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Zussy</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Zussy (Tel : 0384261960, 15 Rue de Carnot)<br/>
+                <img src="img/PharmacieZussie.jpeg" width="100%"/><br/>
+
+            </p>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedeChevremont">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie de Chevremont</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie de Chevremont (Tel : 0384216849, 2 rue de Perouse)<br/>
+                <img src="img/PharmaciedeChevremont.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedeDanjoutin">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie de Danjoutin</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie de Danjoutin (Tel : 0384282417, 27 rue du Dr Eugene Jacquot)<br/>
+                <img src="img/PharmaciedeDanjoutin.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieduboulevardKennedy">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie du Boulevard Kennedy</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie du Boulevard Kennedy (Tel : 0384217942, 36 Boulevard John F Kennedy)<br/>
+                <img src="img/PharmacieduBoulevardKennedy.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedesForges">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie des Forges</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie des Forges ( Tel : 0384260153, 7 rue Aristide Briand)<br/>
+                <img src="img/PharmaciedesForges.png" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieSaintChristophe">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Saint-Christophe</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Saint Christophe (Tel : 0384280700, 1 rue de l'Eglise Place d'Armes)<br/>
+                <img src="img/PharmacieSaint-%20Christophe.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedeFrance">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie de France</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie de France ( Tel : 0384280212, 54  Fbg de France)<br/>
+                <img src="img/PharmaciedeFrance.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedelaDouce">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie de la Douce</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie de la Douce (Tel : 0384210647, Centre Cial de la Douce)<br/>
+                <img src="img/PharmaciedelaDouce.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedelapepiniere">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie de la pepiniere</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie de la PEPINIERE (Tel : 0384280779, 2 rue Edmond Miellet)<br/>
+                <img src="img/Pharmaciedelapepiniere.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedelaSavoureuse">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie de la Savoureuse</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie de la Savoureuse ( Tel : 0384263668,  Rue Cardinale Mercier)<br/>
+                <img src="img/PharmaciedelaSavoureuse.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedesResidencesMadrid">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie des Residences Madrid</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie des Residences Madrid (Tel : 0384211610, 2 rue de Madrid)<br/>
+                <img src="img/PharmacieDesResidences.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmaciedesVosges">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie des Vosges</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie des Vosges (Tel : Indisponible, 78 Avenue Jean-Jaures)<br/>
+                <img src="img/PharmacieGermain%20-Eurl.png" width="100%"/><br/>
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieduLion">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie du Lion</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie du  Lion (Tel : 0384222585, 51 Avenue d'Altkirch)<br/>
+                <img src="img/PharmacieduLION.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieduMagny">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie du Magny</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie du Magny (Tel : 0384292510, 21 Grande Rue )<br/>
+                <img src="img/PharmacieduMagny.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieduMarche">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie du Marche</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie du Marche (Tel : 0384213597, 107 Avenue Jean-Jaures)<br/>
+                <img src="img/PharmacieduMarche.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieduMont">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie du Mont</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie du Mont (Tel : 0384210666, 15 Avenue du Chateau d'Eau)<br/>
+                <img src="img/PharmacieduMont.jpeg.png" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pharmacieGermainEurl">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Pharmacie Germain Eurl</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                Pharmacie Germain -Eurl (Tel : 0384265388, 250 Avenue Jean- Jaures)<br/>
+                <img src="img/PharmacieGermain%20-Eurl.png" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="SELARLpharmacieKuentzEmmanuel">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#ListePM" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>SELARL Pharmacie Kuentz Emmanuel</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                SELARL Pharmacie Kuentz Emmanuelle (Tel : 0384260087, 159 Avenue Jean-Jaures)<br/>
+                <img src="img/Pharmaciekuentz.jpeg" width="100%"/><br/>
+
+            </p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+    <!-- Mes Favoris-->
+    <div data-role="page" id="MesFavoris">
+        <div data-role="header" data-position="fixed">
+            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left"> </a>
+            <a href="#index" class="ui-btn ui-icon-back ui-btn-icon-right"> </a>
+            <h1>Liste de Pharmacie</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="location"></a></li>
+                    <li><a href="#" data-icon="heart"></a></li>
+                    <li><a href="#" data-icon="star"></a></li>
+                </ul>
+            </div>
+            <h4>&copy; Pharmacie Belfort 2020</h4>
+        </div>
+    </div>
+
+</body>
+</html>
